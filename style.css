@@ -24,16 +24,7 @@
 
 }
 
-/* .navbar-brand img{
-   
-    width: 10%;
-    height: 10%;
-}
 
-.navbar-toggler{
-    display: block;
-    float: right;
-} */
 /* Count Down  */
 #countdown{
     margin-top: 20px;
@@ -159,22 +150,7 @@
     object-fit: cover;
     overflow: hidden;
   }
-  /* .gallery-title
-  {
-    font-size: 36px;
-    color: #ed010f;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 70px;
-  }
-  .gallery-title:after {
-    content: "";
-    position: absolute;
-    width: 7.5%;
-    left: 46.5%;
-    height: 45px;
-    border-bottom: 1px solid #ed010f;
-  } */
+  
   .filter-button
   {
     font-size: 18px;
