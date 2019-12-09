@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* Home Page */
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('/images/books-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.hero-content img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+/* .navbar-brand img{
+   
+    width: 10%;
+    height: 10%;
+}
+
+.navbar-toggler{
+    display: block;
+    float: right;
+} */
+/* Count Down  */
+#countdown{
+    margin-top: 20px;
+}
+
+
+.countdown-container{
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.countdown-container h2{
+    text-align: center;
+}
+.countdown-container p{
+    font-size: 100%;
+    color: black;
+    padding: 5px;
+}
+
+/* Home Page Cards  */
+.programs-list-home{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('/images/crowd-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 150vh;
+}
+
+.programs-list-home h2{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 100px;
+}
+
+.programs-list-home h5{
+    color: white;
+}
+
+.programs-list-home img{
+    width: 100%;
+  margin-top: 20px;
+}
+
+/* .card-deck .card {
+    max-width: calc(25% - 30px);
+    
+    margin-top: 20px;
+} */
+
+/* About Page */
+
+.about-home{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('/images/avenue-view.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 70vh;
+}
+
+.hero-content{
+    color: white;
+   text-align: center;
+   /* position: absolute;
+   top: 25%;
+   left: 50%;
+   bottom: 25%; */
+  
+}
+
+.about-content{
+    text-align: justify;
+    margin-top: 40px;
+}
+
+/* Team Page */
+
+.team-home{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('/images/hbf-team.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 70vh;
+}
+
+.team{
+    margin-top: 40px;
+}
+
+
+/* Gallery */
+
+.text-center .btn{
+    border-radius: 200px;
+    transition: background-color 0.5s;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  
+  
+  .text-center .btn-outline-dark:hover{
+  
+    background-color: #ed010f;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  
+  .text-center .active{
+    background-color: #ed010f !important;
+    color: #fff;
+    border: 1px solid #ed010f !important;
+  }
+  
+  .boxImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  /* .gallery-title
+  {
+    font-size: 36px;
+    color: #ed010f;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+  }
+  .gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #ed010f;
+  } */
+  .filter-button
+  {
+    font-size: 18px;
+    border: 1px solid #ed010f;
+    border-radius: 5px;
+    text-align: center;
+    color: #ed010f;
+    margin-bottom: 30px;
+  
+  }
+  .filter-button:hover
+  {
+    font-size: 18px;
+    border: 1px solid #ed010f;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ed010f;
+  
+  }
+  .filter-button .active
+  {
+    background-color: #ed010f;
+    color: white;
+  }
+  .port-image
+  {
+    width: 100%;
+  }
+  
+  .gallery_product
+  {
+    margin-bottom: 30px;
+  -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  
+  .block{
+    opacity: 0;
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+  
+  
+
+/* Contact */
+
+.contact-content{
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact-info li{
+    list-style: none;
+}
+
+.contact-info li span{
+    padding-left: 10px;
+}
+
+.btn{
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #ed010f;
+    border: none;
+}
+
+/* Footer */
+
+.page-footer{
+    background: #ed010f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18 20%, #ed010f 80%);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18 20%, #ed010f 80%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: white;
+}
+
+.list-unstyled li a, .footer-copyright a{
+    color: white;
+}
+
+
+
+.about-footer p{
+    text-align: justify;
+    font-size: 75%;
+}
+
