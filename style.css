@@ -17,6 +17,16 @@
     height: 100vh;
 }
 
+.navbar-nav li a{
+  color: white !important;
+}
+
+.navbar-nav li ion-icon{
+  font-size: 150%;
+  color: #3b5998;
+  /* background-color: #fff; */
+  border: none;
+}
 .hero-content img{
     width: 100%;
     height: 100%;
@@ -121,6 +131,15 @@
 
 /* Gallery */
 
+.gallery-home{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('/images/gallery-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 70vh;
+}
+
 .text-center .btn{
     border-radius: 200px;
     transition: background-color 0.5s;
@@ -210,6 +229,15 @@
   
 
 /* Contact */
+
+.contact-home{
+  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url('/images/contact-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 70vh;
+}
 
 .contact-content{
 
