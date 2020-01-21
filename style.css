@@ -83,7 +83,9 @@
     background-position: center;
     background-attachment: fixed;
     /* height: 600vh; */
-    height: 100%;
+    height: 150%;
+
+   
 }
 
 .programs-list-home h2{
@@ -102,6 +104,11 @@
   margin-top: 20px;
 }
 
+
+h6{
+  font-size: 150%;
+  text-align: center;
+}
 /* .card-deck .card {
     max-width: calc(25% - 30px);
     
